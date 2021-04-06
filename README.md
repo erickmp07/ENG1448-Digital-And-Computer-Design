@@ -22,7 +22,7 @@ Theses projects were developed with the following technology:
 ## Projects
 
 ENG1448 is a PUC-RIO course called 'Computação Digital' and these projects were developed in the 2021.1 period.
-Each lab is a project and has a file that describes what should be developed, the report of what was done and the project itself.
+Each lab is a project and has a file that describes what should be developed, the report of what was done, the grade obtained and the project itself.
 Here is the list of projects:
 
 - [LAB02](LAB02-Basic-VHDL) - Word Reverser (Reversor de Palavras)
