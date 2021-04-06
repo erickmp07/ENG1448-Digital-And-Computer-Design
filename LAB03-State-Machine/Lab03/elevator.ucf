@@ -1,0 +1,59 @@
+
+
+# PlanAhead Generated physical constraints 
+NET "BTN_UP" LOC = V4;
+NET "BTN_DOWN" LOC = K17;
+
+# PlanAhead Generated IO constraints 
+NET "BTN_UP" PULLDOWN;
+NET "BTN_DOWN" PULLDOWN;
+NET "BTN_UP" IOSTANDARD = LVTTL;
+NET "BTN_DOWN" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+NET "SENSOR_UP" LOC = H13;
+
+# PlanAhead Generated IO constraints 
+NET "SENSOR_UP" IOSTANDARD = LVTTL;
+NET "SENSOR_UP" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+NET "SENSOR_DOWN" LOC = D18;
+
+# PlanAhead Generated IO constraints 
+NET "SENSOR_DOWN" IOSTANDARD = LVTTL;
+NET "SENSOR_DOWN" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+NET "LED_UP" LOC = F12;
+
+# PlanAhead Generated IO constraints 
+NET "LED_UP" IOSTANDARD = LVTTL;
+NET "LED_UP" DRIVE = 8;
+
+# PlanAhead Generated physical constraints 
+NET "LED_DOWN" LOC = E12;
+
+# PlanAhead Generated IO constraints 
+NET "LED_DOWN" IOSTANDARD = LVTTL;
+NET "LED_DOWN" DRIVE = 8;
+
+# PlanAhead Generated physical constraints 
+NET "MOTOR_DOWN" LOC = E11;
+
+# PlanAhead Generated IO constraints 
+NET "MOTOR_DOWN" IOSTANDARD = LVTTL;
+NET "MOTOR_DOWN" DRIVE = 8;
+
+# PlanAhead Generated physical constraints 
+NET "MOTOR_UP" LOC = F11;
+
+# PlanAhead Generated IO constraints 
+NET "MOTOR_UP" IOSTANDARD = LVTTL;
+NET "MOTOR_UP" DRIVE = 8;
+
+# PlanAhead Generated physical constraints 
+NET "CLK" LOC = C9;
+
+# PlanAhead Generated IO constraints 
+NET "CLK" IOSTANDARD = LVCMOS33;
