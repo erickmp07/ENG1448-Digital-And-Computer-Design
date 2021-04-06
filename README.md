@@ -21,7 +21,7 @@ Theses projects were developed with the following technology:
 
 ## Projects
 
-ENG1448 is a PUC-RIO course called 'Computação Digital' and these projects were developed in the 2021.1 period.
+ENG1448 is a PUC-Rio course called 'Computação Digital' and these projects were developed in the 2021.1 period.
 Each lab is a project and has a file that describes what should be developed, the report of what was done, the grade obtained and the project itself.
 Here is the list of projects:
 
