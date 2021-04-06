@@ -26,6 +26,7 @@ Each lab is a project and has a file that describes what should be developed, th
 Here is the list of projects:
 
 - [LAB02](LAB02-Basic-VHDL) - Word Reverser (Reversor de Palavras)
+- [LAB03](LAB03-State-Machine) - Elevator Controller (Controlador de elevador)
 
 ## How to run
 
@@ -41,6 +42,7 @@ git clone https://github.com/erickmp07/ENG1448-Digital-And-Computer-Design.git
 
 or download one or more projects to synthetize and simulate:
 - [LAB02](LAB02-Basic-VHDL/lab2) - Word Reverser (Resersor de Palavras)
+- [LAB03](LAB03-State-Machine/Lab03) - Elevator Controller (Controlador de elevador)
 
 Open the ISE Design Suite: WebPACK Edition version 14.7 by Xilinx.
 
