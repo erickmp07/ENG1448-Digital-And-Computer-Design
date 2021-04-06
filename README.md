@@ -46,7 +46,7 @@ Open the ISE Design Suite: WebPACK Edition version 14.7 by Xilinx.
 
 Browse the projects downloaded.
 
-Open, Synthetize and Simulate.
+Open, Synthetize and Simulate it.
 
 ## License
 
