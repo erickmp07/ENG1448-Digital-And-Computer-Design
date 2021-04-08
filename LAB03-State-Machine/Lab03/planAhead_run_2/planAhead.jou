@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 05 01:30:24 2021
+# Process ID: 21004
+# Log file: C:/Users/empinto/Lab03/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/empinto/Lab03/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/empinto/Lab03/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V4 [get_ports BTN_UP]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list BTN_UP]]
+startgroup
+set_property package_pin K17 [get_ports BTN_DOWN]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list BTN_DOWN]]
+set_property pulltype PULLDOWN [get_ports [list BTN_UP]]
+set_property pulltype PULLDOWN [get_ports [list BTN_DOWN]]
+set_property iostandard LVTTL [get_ports [list CLK]]
+set_property iostandard LVTTL [get_ports [list BTN_UP]]
+set_property iostandard LVCMOS25 [get_ports [list CLK]]
+set_property iostandard LVTTL [get_ports [list BTN_DOWN]]
+set_property iostandard {} [get_ports [list CLK]]
+startgroup
+set_property package_pin H13 [get_ports SENSOR_UP]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list SENSOR_UP]]
+set_property iostandard LVTTL [get_ports [list SENSOR_UP]]
+set_property pulltype PULLDOWN [get_ports [list SENSOR_UP]]
+startgroup
+set_property package_pin D18 [get_ports SENSOR_DOWN]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list SENSOR_DOWN]]
+set_property iostandard LVTTL [get_ports [list SENSOR_DOWN]]
+set_property pulltype PULLDOWN [get_ports [list SENSOR_DOWN]]
+startgroup
+set_property package_pin F12 [get_ports LED_UP]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list LED_UP]]
+set_property iostandard LVTTL [get_ports [list LED_UP]]
+set_property drive 8 [get_ports [list LED_UP]]
+startgroup
+set_property package_pin E12 [get_ports LED_DOWN]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list LED_DOWN]]
+set_property iostandard LVTTL [get_ports [list LED_DOWN]]
+set_property drive 8 [get_ports [list LED_DOWN]]
+startgroup
+set_property package_pin E11 [get_ports MOTOR_DOWN]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list MOTOR_DOWN]]
+set_property iostandard LVTTL [get_ports [list MOTOR_DOWN]]
+set_property drive 8 [get_ports [list MOTOR_DOWN]]
+startgroup
+set_property package_pin F11 [get_ports MOTOR_UP]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list MOTOR_UP]]
+set_property iostandard LVTTL [get_ports [list MOTOR_UP]]
+set_property drive 8 [get_ports [list MOTOR_UP]]
+startgroup
+set_property package_pin C9 [get_ports CLK]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+save_constraints

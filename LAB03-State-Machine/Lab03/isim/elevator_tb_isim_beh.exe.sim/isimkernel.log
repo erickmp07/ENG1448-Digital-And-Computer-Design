@@ -1,0 +1,29 @@
+Command line:
+   elevator_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59551
+
+Mon Apr 05 01:42:57 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 4689.21 Meg
+
+ Total Signals          : 20
+ Total Nets             : 11
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 372
+Total Line Count : 64
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4689.22 Meg
+
+Mon Apr 05 01:43:06 2021
+
